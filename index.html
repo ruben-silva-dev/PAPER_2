@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>PAPER 2</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">PAPER 2</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#abstract">Abstract</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#downloads">Downloads</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#authors">Authors</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h3 class="display-3">On the Relationship Between Code Review and Continuous Integration: An Exploratory Study</h3>
+    <p>
+        This website contains complementary data to the submitted paper.
+    </p>
+
+    <h5 id="abstract" class="display-5">Abstract</h5>
+    <p class="lead">
+        Code Review (CR) and Continuous Integration (CI) are two practices of Modern Software Engineering that have been
+        widely disseminated and have generated good results in open-source and closed-source projects. Currently, some
+        tools offer the possibility to work with these practices in an integrated way through the integration request
+        mechanisms. This work aims to conduct an exploratory study to investigate the relationship between aspects of CR
+        and CI in closed-source projects. This study aims to find out if there is a relationship between CR and CI,
+        about: (i) CI workload, (ii) number of failures reported by CI, (iii) time to resolve errors raised by CI, and
+        (iv) intensity of commits in the CR. Also, we investigate how CI can assist the CR process in software projects.
+        We quantitatively analyzed 10 closed-source projects by collecting and analyzing 28 metrics related to CR and
+        CI. We carry out a qualitative analysis by capturing the code reviewers' perceptions in the projects. From the
+        metrics collected, we identified four significant correlations between the metrics of CR and CI. Our findings
+        indicate that: (i) number of CRs can profoundly influence the workload generated for CI, (ii) number of CRs has
+        a moderate impact on the number of failures pointed out by CI, (iii) total CR time strongly influences the time
+        needed to correct build errors and (iv) CI is an important tool to assist the CR process in software projects.
+        Our results can assist in improving the development process by optimizing the performance of CR and CI
+        activities.
+    </p>
+
+    <h5 id="downloads" class="display-5">Downloads</h5>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Artefact</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td> <a href="download/Base Project Metrics.zip" download="Base Project Metrics.zip" target="_blank"> Metrics per project </a></td>
+                <td> CSV files of metrics separated by project </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td> <a href="download/General Metrics Without Outliers.csv" download="General Metrics Without Outliers.csv" target="_blank"> Metrics per project without the outliers </a></td>
+                <td> CSV files of metrics separated by project without the outliers </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td> <a href="download/General Metrics.csv" download="General Metrics.csv" target="_blank"> Consolidated metrics </a></td>
+                <td> CSV file containing the metrics gathering from all projects </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td> <a href="download/GitLab Listener.zip" download="GitLab Listener.zip" target="_blank"> Collection Tool </a></td>
+                <td> Python implementation of the metrics collection and analysis tool </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td> <a href="download/Project Metrics Without Outliers.zip" download="Project Metrics Without Outliers.zip" target="_blank"> Consolidated metrics without the outliers </a></td>
+                <td> CSV file containing the metric values of all projects without the outliers </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h5 id="authors" class="display-5">Authors</h5>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>E-mail</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Anonymous Authors</td>
+            <td>anonymous@email.com</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+</html>
